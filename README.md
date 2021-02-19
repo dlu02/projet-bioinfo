@@ -18,3 +18,11 @@
 - Installer les modules python suivants :
         - pip install python-igraph
         - pip install pycairo
+
+## TODO
+- couleurs à ajouter sur le graphe obtenu en fonction du type des liaisons (12 couleurs pour 12 liaisons -majorité en bleu (cWW)
+ --> fonction auxiliaire à appeler avant draw_graph_from_csv
+
+- recherche de sous-graphe : convertir le motif en graphe puis rechercher celui-ci dans le graphe obtenu
+
+- pb de l'image renvoyée deux fois
