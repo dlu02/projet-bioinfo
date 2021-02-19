@@ -15,6 +15,6 @@
 - Dans "src", créer un dossier : "data"
 - Placer le script "projet.py" dans "src"
 - Extraite l'archive contenant les 17120 fichiers au format CSV dans "data"
-- Installer les modules python suivants : 
+- Installer les modules python suivants :
         - pip install python-igraph
         - pip install pycairo
