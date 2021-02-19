@@ -1,0 +1,6 @@
+index_chain,old_nt_resnum,nt_position,nt_name,nt_code,nt_align_code,is_A,is_C,is_G,is_U,is_other,dbn,paired,nb_interact,pair_type_LW,pair_type_DSSR,alpha,beta,gamma,delta,epsilon,zeta,epsilon_zeta,chi,bb_type,glyco_bond,form,ssZp,Dp,eta,theta,eta_prime,theta_prime,eta_base,theta_base,v0,v1,v2,v3,v4,amplitude,phase_angle,puckering
+1,2,0.20,A,A,A,1,0,0,0,0,),0,1,cWW,cW-W,,2.45,1.69,1.32,4.06,4.90,5.44,3.11,..,anti,A,4.74,4.76,,3.69,,3.68,,4.27,0.10,5.78,0.69,5.63,0.35,40.32,0.18,C3'-endo
+2,3,0.40,A,A,A,1,0,0,0,0,),0,1,cWW,cW-W,5.39,3.06,0.66,1.45,3.72,5.09,4.91,3.45,BI,anti,A,4.51,4.72,2.93,3.76,3.14,3.82,4.00,4.33,0.22,5.70,0.70,5.68,0.25,40.27,0.02,C3'-endo
+3,4,0.60,U,U,U,0,0,0,1,0,),0,1,cWW,cW-W,5.09,2.96,0.99,1.35,3.77,4.74,5.31,3.49,BI,anti,A,4.42,4.74,2.90,3.61,3.18,3.65,3.95,4.16,0.12,5.73,0.76,5.58,0.37,44.03,0.18,C3'-endo
+4,5,0.80,U,U,U,0,0,0,1,0,),0,1,cWW,cW-W,5.63,2.64,0.85,1.41,3.80,4.76,5.33,3.46,BI,anti,A,4.46,4.71,3.07,3.70,3.31,3.72,4.03,4.01,0.18,5.73,0.69,5.68,0.27,39.57,0.07,C3'-endo
+5,6,1.00,U,U,U,0,0,0,1,0,),0,1,cWW,cW-W,5.44,2.89,0.74,1.47,,,,3.75,n/a,anti,-,,,,,,,,,0.12,5.81,0.62,5.71,0.29,36.18,0.14,C3'-endo

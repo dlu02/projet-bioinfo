@@ -6,7 +6,8 @@ Created on Fri Jan 29 10:51:07 2021
 """
 
 import pandas
-import glob, os
+import glob
+import os
 import igraph as ig
 import math
 
@@ -21,10 +22,11 @@ os.chdir("..")
 
 def draw_graph_from_csv(filename):
     
-    df = pandas.read_csv("data/" + filename)[['index_chain','nt_code','paired','pair_type_LW']]
+    df = pandas.read_csv("data/" + filename)[['index_chain', 'nt_code', 'paired', 'pair_type_LW']]
     
     print(df.to_string())       # affichage dans la console du fichier sous forme de dataset
     
+    global g
     g = ig.Graph()              # initialisation du graph
     
     for node in df.iterrows():
