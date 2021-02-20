@@ -6,8 +6,7 @@ Created on Fri Jan 29 10:51:07 2021
 """
 
 import pandas
-import glob
-import os
+import glob, os
 import igraph as ig
 import math
 
@@ -17,17 +16,64 @@ os.chdir("data")
 allCsvFiles = glob.glob("*")
 os.chdir("..")
 
+# coloration d'une arête, en fonction du type de liaison
+
+def color_edge(node, index):
+    
+    arrayPairType = []
+    
+    if (index != -1):                    
+        arrayPairType = node.split(',')  
+        
+    cases = {
+        "cWW": "blue",
+        
+        "tWW" : "red",
+        
+        "cWH" : "orange",
+        "cHW" : "orange",
+        
+        "tWH": "yellow",
+        "tHW": "yellow",
+
+        "cWS" : "brown",
+        "cSW" : "brown",
+
+        "tWS": "magenta",
+        "tSW": "magenta",
+        
+        "cHH": "cyan",
+        
+        "tHH": "purple",
+
+        "cHS": "pink",
+        "cSH": "pink",
+        
+        "tHS" : "Spring Green",
+        "tSH" : "Spring Green",
+
+        "cSS" : "Maroon",
+        
+        "tSS": "gray",
+    }
+            
+    if (index != -1):                    
+        return (cases.get(arrayPairType[index]))
+
+    else:    
+        return (cases.get(node))
+
 
 # fonction d'affichage du graphe, à partir du nom d'un fichier au format CSV
 
 def draw_graph_from_csv(filename):
     
-    df = pandas.read_csv("data/" + filename)[['index_chain', 'nt_code', 'paired', 'pair_type_LW']]
+    df = pandas.read_csv("data/" + filename)[['index_chain','paired','pair_type_LW']]
     
     print(df.to_string())       # affichage dans la console du fichier sous forme de dataset
     
-    global g
-    g = ig.Graph()              # initialisation du graph
+    global g                    # déclaration d'une variable g globale
+    g = ig.Graph()              # initialisation du graphe
     
     for node in df.iterrows():
         g.add_vertices(1)       # ajout des noeuds (1 nucléotide = 1 noeud)
@@ -35,16 +81,6 @@ def draw_graph_from_csv(filename):
     for i in range(len(g.vs)):
         g.vs[i]["label"]= str(i+1)  # label du noeud, correspondant à la valeur index_chain 
         
-        # coloration des noeuds selon le nucléotide représenté
-        
-        if (df['nt_code'][i] == "A"):
-            g.vs[i]["color"] = "cyan"
-        if (df['nt_code'][i] == "C"):
-            g.vs[i]["color"] = "yellow"
-        if (df['nt_code'][i] == "G"):
-            g.vs[i]["color"] = "green"
-        if (df['nt_code'][i] == "U"):
-            g.vs[i]["color"] = "pink"
             
     for i in range(len(g.vs)):
         
@@ -65,19 +101,32 @@ def draw_graph_from_csv(filename):
                     if not g.are_connected(int(node)-1,currentNode-1):  # si l'arête n'existe pas déjà dans l'autre sens, alors on la crée
                         g.add_edges([(currentNode-1,int(node)-1)])      # ajout dans le graphe de la liason canonique
                         res_edge = g.es.find(_source=currentNode-1, _target=int(node)-1)
-                        res_edge["color"] = "blue"            # mise en rouge des interactions canoniques
-        
+                        res_edge["color"] = color_edge(df['pair_type_LW'][i], arrayPairedNodes.index(node))  
+                        
+                        
         else:
             pairedNode = pandas.to_numeric(df['paired'][i])  # cast d'un string en int, afin de vérifier si le nucléotide n'est pas apparié (NaN)
             if not math.isnan(pairedNode) and int(pairedNode) in range (1,len(g.vs)):
                 if not g.are_connected(int(pairedNode)-1,currentNode-1):
                     g.add_edges([(currentNode-1,int(pairedNode)-1)])
                     res_edge = g.es.find(_source=currentNode-1, _target=int(pairedNode)-1)
-                    res_edge["color"] = "blue"                # mise en rouge des interactions canoniques
+                    res_edge["color"] = color_edge(df['pair_type_LW'][i],-1)              
+
 
     visual_style = {}
     visual_style["edge_width"] = 3
+    g.vs["color"] = "white"
+    
     ig.plot(g, **visual_style).show()       # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
+
+
+    
+# fonction de recherches des sous-graphes, à partir d'un motif issu de carnaval  
+    
+def find_subgraph(graph,motif):
+    print(graph.neighbors(motif))
+    
     
     
 draw_graph_from_csv("1asz_1_S")     # test de la fonction principale sur un fichier donné
+"""find_subgraph(g,5)"""
