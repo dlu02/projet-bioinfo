@@ -49,10 +49,10 @@ def color_edge(node, index):
         "cHS": "pink",
         "cSH": "pink",
         
-        "tHS" : "Spring Green",
-        "tSH" : "Spring Green",
+        "tHS" : "green",
+        "tSH" : "green",
 
-        "cSS" : "Maroon",
+        "cSS" : "maroon",
         
         "tSS": "gray",
     }
@@ -66,11 +66,13 @@ def color_edge(node, index):
 
 # fonction d'affichage du graphe, à partir du nom d'un fichier au format CSV
 
-def draw_graph_from_csv(filename):
+def draw_graph_from_csv(file):
     
+    global filename
+    filename = file
     df = pandas.read_csv("data/" + filename)[['index_chain','paired','pair_type_LW']]
     
-    print(df.to_string())       # affichage dans la console du fichier sous forme de dataset
+    print("\nDataset du fichier " + file + "\n\n" + df.to_string() + "\n\n")      # affichage dans la console du fichier sous forme de dataset
     
     global g                    # déclaration d'une variable g globale
     g = ig.Graph()              # initialisation du graphe
@@ -117,16 +119,112 @@ def draw_graph_from_csv(filename):
     visual_style["edge_width"] = 3
     g.vs["color"] = "white"
     
-    ig.plot(g, **visual_style).show()       # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
+    ig.plot(g, **visual_style).show()    # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
 
 
     
-# fonction de recherches des sous-graphes, à partir d'un motif issu de carnaval  
+# find_subgraph : fonction de recherches des sous-graphes, à partir d'un motif issu de carnaval  
+# Le principe est le suivant : la fonction get_subisomorphisms_vf2 de la librairie igraph renvoie 
+# la liste des sous-graphes isomorphes entre deux graphes. De plus, la fonction de comparaison compare_edges
+# va vérifier pour chaque arête 2 à 2 si leur couleur est identique ou non. 
+# Si tel est le cas, alors on aura trouvé un sous-graphe correspondant au motif
+# Enfin, subgraph_list, qui contient la liste de tous les sous-graphes trouvés, peut contenir des doublons
+# Ex: [0,2,4,1] et [4,2,0,1]
+# Pour éviter cela, on va filter subgraph_list dans un set, pour supprimer tous ces doublons
     
-def find_subgraph(graph,motif):
-    print(graph.neighbors(motif))
+def find_subgraph(graph, motif, motif_name):
+    
+    def compare_edges(g1, g2, i1, i2):
+        try:
+            result = (g1.es[i1]['color'] == g2.es[i2]['color'])
+        except:
+            return False
+        else:
+            return result
+
+    subgraph_list = g.get_subisomorphisms_vf2(motif,edge_compat_fn=compare_edges)
+    
+    if len(subgraph_list) >= 1:
+        results = [tuple(x) for x in set(map(frozenset, subgraph_list))]
+        print ("Le motif " + motif_name + " est présent " + str(len(results)) + " fois dans la chaîne d'ARN " + filename + "\n")
+        for result in sorted(results):
+            print (result)
+        print ("\n\n")
+
+    else:
+        print ("Le motif " + motif_name + " est absent de la chaîne d'ARN " + filename + "\n\n")
+
+
+# initialisation des motifs RIN issus de Carnaval, sous forme de graphe
+# la couleur des arêtes permet d'identiier le type de liaison pair_type_LW
+    
+def transorm_RIN_to_graph():
+    
+    global rin_23, rin_129
+    
+    rin_23 = ig.Graph()
+    rin_129 = ig.Graph()
+
+    rin_129.add_vertices(4)
+    rin_129.add_edges([(0,1),(1,2),(2,3),(0,3)])
+    rin_129.vs["color"] = "white"
+
+    for i in range(len(rin_129.vs)):
+        rin_129.vs[i]["label"]= str(i+1) 
+        
+    res_edge = rin_129.es.find(_source=1, _target=2)
+    res_edge["label"] = "tWW"        # liaison tWW
+    res_edge["color"] = "red"
+
+    res_edge = rin_129.es.find(_source=0, _target=3)
+    res_edge["label"] = "tHS"        # liaison tHS    (d'après la nomenclature officielle)
+    res_edge["color"] = "green"
     
     
+    rin_23.add_vertices(8)
+    rin_23.add_edges([(0,1),(1,2),(2,3),(3,4),(4,5),(5,7),(1,6),(6,7),(1,4),(0,5)])
+    rin_23.vs["color"] = "white"
+
+    for i in range(len(rin_23.vs)):
+        rin_23.vs[i]["label"]= str(i+1) 
+        
+    res_edge = rin_23.es.find(_source=0, _target=5)
+    res_edge["label"] = "cWW"
+    res_edge["color"] = "blue"
+
+    res_edge = rin_23.es.find(_source=1, _target=4)
+    res_edge["label"] = "cWW"
+    res_edge["color"] = "blue"
     
-draw_graph_from_csv("1asz_1_S")     # test de la fonction principale sur un fichier donné
-"""find_subgraph(g,5)"""
+    res_edge = rin_23.es.find(_source=2, _target=3)
+    res_edge["label"] = "cWW"
+    res_edge["color"] = "blue"
+    
+    res_edge = rin_23.es.find(_source=1, _target=6)
+    res_edge["label"] = "cSS"
+    res_edge["color"] = "maroon"
+    
+    res_edge = rin_23.es.find(_source=5, _target=7)
+    res_edge["label"] = "tSS"
+    res_edge["color"] = "gray"
+    
+    ig.plot(rin_23).show()      # affichage du RIN 23
+    ig.plot(rin_129).show()     # affichage du RIN 129
+
+transorm_RIN_to_graph()
+draw_graph_from_csv("1mms_1_C")    # test de la fonction principale sur le fichier nommé "1mms_1_C"
+find_subgraph(g,rin_23,"rin_23")
+find_subgraph(g,rin_129,"rin_129")    
+
+
+# Si vous souhaitez parcourir tous les fichiers pour rechercher un motif, il suffit de décommenter
+# le code ci-dessous. Mais attention, il faudra absolument mettre en commentaire les divers affichages dans 
+# draw_graph_from_csv (plot de la chaine d'ARN + affichage du .csv dans la console), au risque de faire planter 
+# le programme. Il est déconseillé d'exécuter le programme ci-dessous si votre machine n'est pas très puissante,
+# le programme mettra plusieurs dizaines de minutes à s'éxécuter. 
+# Il faudra alors privilégier l'analyse fichier par fichier comme ci-dessus.
+
+"""for csvFile in allCsvFiles:
+    draw_graph_from_csv(csvFile)
+    find_subgraph(g,rin_23,"rin_23")
+    find_subgraph(g,rin_129,"rin_129") """
