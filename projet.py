@@ -10,6 +10,7 @@ import glob, os
 import igraph as ig
 import math
 
+
 # récupération de la liste de tous les fichiers à étudier
 
 os.chdir("data")
@@ -119,9 +120,15 @@ def draw_graph_from_csv(file):
     visual_style["edge_width"] = 3
     g.vs["color"] = "white"
     
-    ig.plot(g, **visual_style).show()    # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
-
-
+    draw_g = ig.plot(g, **visual_style) # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
+    
+    # si l'affichage n'a pas fonctionné (booléen is_dirty == True), alors on appelle la méthode show()
+    # Ce cas de figure peut apparaitre si le code source est éxécuté via un IDE
+    
+    if (str(draw_g._is_dirty) == "True"):   
+        draw_g.show()
+    
+ 
     
 # find_subgraph : fonction de recherches des sous-graphes, à partir d'un motif issu de carnaval  
 # Le principe est le suivant : la fonction get_subisomorphisms_vf2 de la librairie igraph renvoie 
@@ -208,8 +215,14 @@ def transorm_RIN_to_graph():
     res_edge["label"] = "tSS"
     res_edge["color"] = "gray"
     
-    ig.plot(rin_23).show()      # affichage du RIN 23
-    ig.plot(rin_129).show()     # affichage du RIN 129
+    draw_rin_23 = ig.plot(rin_23)    # affichage du RIN 23
+    draw_rin_129 = ig.plot(rin_129)  # affichage du RIN 129
+    
+    if (str(draw_rin_23._is_dirty) == "True"):   
+        draw_rin_23.show()
+    
+    if (str(draw_rin_129._is_dirty) == "True"):   
+        draw_rin_129.show()
 
 transorm_RIN_to_graph()
 draw_graph_from_csv("1mms_1_C")    # test de la fonction principale sur le fichier nommé "1mms_1_C"
