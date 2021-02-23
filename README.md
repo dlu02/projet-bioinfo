@@ -18,3 +18,12 @@
 - Installer les modules python suivants :
         - pip install python-igraph
         - pip install pycairo
+
+## TODO
+- Rédiger un manuel utilisateur de 2 ou 3 pages, accompagnés de capture d'écran de l'exécution attendue
+- Ce manuel doit comprendre les parties suivantes :  
+        1 - Brève introduction (= but du projet)
+        2 - Installation du projet (1/2 page)
+        3 - Explication rapide des fonctions principales (développer surtout sur la recherche des motifs dans find_subgraph)
+        4 - Limite du code (proposer des améliorations, en terme de modélisation de l'ARN ou même de performance du code)
+        5 - Conclusion (rappeler ce qui fonctionne / ce qui ne fonctionne pas)
