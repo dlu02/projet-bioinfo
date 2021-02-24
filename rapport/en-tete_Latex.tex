@@ -1,0 +1,102 @@
+%Packages ams
+\usepackage[intlimits]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{stmaryrd}
+
+%Fonction indicatrice
+\usepackage[upint]{newtxmath}
+
+% réglages font Fira Sans (ATTENTION : XeTex REQUIS !!)
+\usepackage[sfdefault]{firasans}
+
+%mise en page
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx} %personalisation des tableaux
+\usepackage{graphicx} %importation d'images
+\usepackage{enumitem} %personalisation de itemize/enumerate
+\usepackage{array} %extension de array/tableaux
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} %mise en page
+\pagestyle{fancy}
+\usepackage{lastpage}
+
+%extensions requises par bclogo
+\usepackage{xkeyval}
+\usepackage{ifthen}
+\usepackage{ifpdf}
+\usepackage{etoolbox}
+\usepackage[tikz]{bclogo}
+
+%paramètres de bclogo
+\presetkeys{bclogo}{ombre=true,epOmbre=0.25}{}
+\newcommand{\eb}{\end{bclogo}}
+
+%paramétrage bclogo attention
+\newcommand{\bat}{\begin{bclogo}[logo=\bcattention ,margeG=1,noborder=true]{Attention !}}
+
+%texte mathématique en gras
+\renewcommand{\textbf}[1]{\begingroup\bfseries\mathversion{bold}#1\endgroup}
+
+%%%raccourcis pour taper et abréviations mathématiques
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\bn}{\begin{enumerate}}
+\newcommand{\en}{\end{enumerate}}
+\newcommand{\bpx}{\begin{pmatrix}}
+\newcommand{\epx}{\end{pmatrix}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\e}{\mathrm{e}}
+\newcommand{\R}{\mathbf{R}}
+\newcommand{\Z}{\mathbf{Z}}
+\newcommand{\N}{\mathbf{N}}
+\newcommand{\D}{\mathbf{D}}
+\newcommand{\Q}{\mathbf{Q}}
+\newcommand{\co}{\mathbf{C}}
+\newcommand{\K}{\mathbf{K}}
+\newcommand{\ev}{espace vectoriel }
+\newcommand{\efini}{Soit $(\Omega, P)$ un espace probabilisé fini}
+\newcommand{\sev}{sous-espace vectoriel }
+\newcommand{\sevs}{sous-espaces vectoriels }
+\newcommand{\kev}{$\K$-espace vectoriel }
+\newcommand{\kevs}{$\K$-espaces vectoriels }
+\newcommand{\cov}{\mathrm{Cov}}
+\newcommand{\vect}{\mathrm{Vect}}
+\newcommand{\gl}{\mathrm{GL}}
+\newcommand{\tr}{\mathrm{Tr}}
+\newcommand{\com}{\mathrm{Com}}
+\renewcommand{\phi}{\varphi}
+\renewcommand\styleSousTitre[1]{\hfill\textsl{#1}}
+\newcommand{\bc}{\begin{cases}}
+\newcommand{\ec}{\end{cases}}
+\renewcommand{\i}{\mathrm{i}}
+\renewcommand{\d}{\mathrm{d}}
+\newcommand{\ch}{\mathrm{ch}}
+\newcommand{\sh}{\mathrm{sh}}
+\renewcommand{\th}{\mathrm{th}}
+\newcommand{\non}[1]{\textrm{non}(#1)}
+\newcommand{\impq}{\Longrightarrow}
+\renewcommand{\Re}{\mathrm{Re}}
+\renewcommand{\Im}{\mathrm{Im}}
+\newcommand{\card}{\mathrm{Card}}
+\renewcommand{\epsilon}{\varepsilon}
+\newcommand{\spe}{\mathrm{Sp}}
+\renewcommand{\ker}{\mathrm{Ker}}
+\newcommand{\rg}{\mathrm{rg}}
+\newcommand{\cond}{\mathrm{Cond}}
+\newcommand{\ord}{\mathrm{Ord}}
+\newcommand{\indic}{\vmathbb{1}}
+
+%abréviations suites (variable n)
+\newcommand{\un}[1]{(u_n)_{n\in #1}}
+\newcommand{\vn}[1]{(v_n)_{n\in #1}}
+\newcommand{\wn}[1]{(w_n)_{n\in #1}}
+%limites (variable x par défaut)
+\newcommand{\tend}[2][x]{\underset{#1 \to #2}{\longrightarrow}}
+\newcommand{\pinf}{+\infty}
+\newcommand{\minf}{-\infty}
+\newcommand{\Db}{\overline{D}}
+\newcommand{\Rb}{\overline{\R}}
+%%%

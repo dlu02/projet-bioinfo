@@ -1,0 +1,62 @@
+%En-tête classique
+\documentclass[11pt,a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\input{en-tete_Latex.tex} %charge fichier des commandes perso
+
+%En-tete et pied de page
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{\today}
+\cfoot{\textbf{Page \thepage}}
+\renewcommand\footrulewidth{0.4pt}
+
+\begin{document}
+\begin{huge}
+\noindent \textbf{Rapport projet bioinformatique}
+\end{huge} 
+\\ \\
+\begin{Large}
+Rémi Decouty et Damien Lu
+\end{Large} \\ \\
+\begin{Large}
+\today
+\end{Large}
+~\\
+\hrule 
+\lstset{basicstyle=\ttfamily,showstringspaces=false,breaklines=true, language=Python,keywordstyle=\color{blue},commentstyle=\color{gray},breakindent=1.5em,
+xleftmargin=2em,xrightmargin=2em,frame=single,rulecolor=\color{orange},
+backgroundcolor=\color{yellow!5},columns=fullflexible}
+\section{Présentation du sujet}
+On considère un ARN dont on veut en étudier la structure. L'idée est de considérer la structure d'un ARN comme étant un graphe, dont les noeuds sont les nucléotides et les arêtes du graphe sont les interactions entre les nucléotides. 
+
+Pour décrire ces interactions entre nucléotides, on considèrera, conformément à l'article de Leontis, N.B. et Westhof, \textit{Geometric nomenclature and classification of RNA base pairs}, la nomenclature de \textit{Leontis-Westhof}.
+
+On utilisera également la base de données RNANet contenant pour chaque chaîne d'ARN les différentes interactions entre les nucléotides de la chaîne. 
+
+L'objectif est d'implémenter un programme pouvant, à partir des fichiers constituant la base de données RNANet générer un graphe représentant la structure de la chaîne d'ARN, puis à partir de motifs d'ARN préalablement choisis de rechercher les graphes contenant ces motifs d'ARN.
+\section{Choix techniques}
+Compte tenu du type de fichiers constituant la base de données RNANet (des fichiers CSV) et de leur manipulation plus aisée, nous avons choisi d'utiliser le langage Python. 
+\section{Manuel d'utilisation}
+L'archive contient un fichier Python nommé \texttt{projet.py} qui contient le programme.
+\bat {\color{blue} \textbf{Le programme nécessite à minima Python 3.9 pour pouvoir correctement tourner.}}
+
+\noindent Il nécessite également les modules Python suivants : matplotlib, pycairo et igraph. S'ils ne sont pas installés, une commande comme :
+\begin{lstlisting}[language=Bash]
+$ pip install matplotlib python-igraph pycairo
+\end{lstlisting}
+les installe. \eb
+
+Pour installer le projet, il convient de suivre les étapes suivantes :
+\bn \item Dézipper le fichier dans un répertoire que l'on appellera projet-bioinfo.
+\item Télécharger la base de données RNANet à l'adresse suivante : \url{https://evryrna.ibisc.univ-evry.fr/evryrna/rnanet}, {\color{blue} \textbf{sélectionner la base de données CSV}} et la décompresser dans le dossier projet-bioinfo/data.
+\item Exécuter le programme avec la commande :
+\begin{lstlisting}[language=Bash]
+$ python projet.py
+\end{lstlisting} \en
+\end{document}
+ 
