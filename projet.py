@@ -71,9 +71,9 @@ def draw_graph_from_csv(file):
     
     global filename
     filename = file
-    df = pandas.read_csv("data/" + filename)[['index_chain','paired','pair_type_LW']]
+    df = pandas.read_csv("data/" + filename)[['old_nt_resnum','paired','pair_type_LW']]
     
-    print("\nDataset du fichier " + file + "\n\n" + df.to_string() + "\n\n")      # affichage dans la console du fichier sous forme de dataset
+    # print("\nDataset du fichier " + file + "\n\n" + df.to_string() + "\n\n")      # affichage dans la console du fichier sous forme de dataset
     
     global g                    # déclaration d'une variable g globale
     g = ig.Graph()              # initialisation du graphe
@@ -87,8 +87,9 @@ def draw_graph_from_csv(file):
             
     for i in range(len(g.vs)):
         
-        currentNode = df['index_chain'][i]      # noeud parcouru actuellement
+        currentNode = df['old_nt_resnum'][i]      # noeud parcouru actuellement
         pairedNode = str(df['paired'][i])       # liste des nucléotides possédant une interaction avec le noeud actuel
+        
         
         # liaisons phosphodiester entre les nucléotides
         
@@ -100,7 +101,7 @@ def draw_graph_from_csv(file):
         if pairedNode.find(",") != -1:                       # la liste "paired" contient plus d'un élément
             arrayPairedNodes = pairedNode.split(',')         # on récupère chacun des nucléotides de la liste
             for node in arrayPairedNodes:
-                if int(node) in range (1,len(g.vs)):         # le nucléotide apparié existe bien dans la chaîne
+                if (int(node) in df['old_nt_resnum'].tolist()):         # le nucléotide apparié existe bien dans la chaîne
                     if not g.are_connected(int(node)-1,currentNode-1):  # si l'arête n'existe pas déjà dans l'autre sens, alors on la crée
                         g.add_edges([(currentNode-1,int(node)-1)])      # ajout dans le graphe de la liason canonique
                         res_edge = g.es.find(_source=currentNode-1, _target=int(node)-1)
@@ -109,7 +110,7 @@ def draw_graph_from_csv(file):
                         
         else:
             pairedNode = pandas.to_numeric(df['paired'][i])  # cast d'un string en int, afin de vérifier si le nucléotide n'est pas apparié (NaN)
-            if not math.isnan(pairedNode) and int(pairedNode) in range (1,len(g.vs)):
+            if not math.isnan(pairedNode) and int(pairedNode) in df['old_nt_resnum'].tolist():
                 if not g.are_connected(int(pairedNode)-1,currentNode-1):
                     g.add_edges([(currentNode-1,int(pairedNode)-1)])
                     res_edge = g.es.find(_source=currentNode-1, _target=int(pairedNode)-1)
@@ -120,13 +121,13 @@ def draw_graph_from_csv(file):
     visual_style["edge_width"] = 3
     g.vs["color"] = "white"
     
-    draw_g = ig.plot(g, **visual_style) # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
+    # draw_g = ig.plot(g, **visual_style) # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
     
     # si l'affichage n'a pas fonctionné (booléen is_dirty == True), alors on appelle la méthode show()
     # Ce cas de figure peut apparaitre si le code source est éxécuté via un IDE
     
-    if (str(draw_g._is_dirty) == "True"):   
-        draw_g.show()
+    # if (str(draw_g._is_dirty) == "True"):   
+    #      draw_g.show()
     
  
     
@@ -157,9 +158,11 @@ def find_subgraph(graph, motif, motif_name):
         for result in sorted(results):
             print (result)
         print ("\n\n")
+        return len(results)
 
     else:
         print ("Le motif " + motif_name + " est absent de la chaîne d'ARN " + filename + "\n\n")
+        return 0
 
 
 # initialisation des motifs RIN issus de Carnaval, sous forme de graphe
@@ -215,14 +218,14 @@ def transorm_RIN_to_graph():
     res_edge["label"] = "tSS"
     res_edge["color"] = "gray"
     
-    draw_rin_23 = ig.plot(rin_23)    # affichage du RIN 23
-    draw_rin_129 = ig.plot(rin_129)  # affichage du RIN 129
+    # draw_rin_23 = ig.plot(rin_23)    # affichage du RIN 23
+    # draw_rin_129 = ig.plot(rin_129)  # affichage du RIN 129
     
-    if (str(draw_rin_23._is_dirty) == "True"):   
-        draw_rin_23.show()
+    # if (str(draw_rin_23._is_dirty) == "True"):   
+    #      draw_rin_23.show()
     
-    if (str(draw_rin_129._is_dirty) == "True"):   
-        draw_rin_129.show()
+    # if (str(draw_rin_129._is_dirty) == "True"):   
+    #     draw_rin_129.show()
 
 transorm_RIN_to_graph()
 draw_graph_from_csv("1mms_1_C")    # test de la fonction principale sur le fichier nommé "1mms_1_C"
@@ -237,7 +240,13 @@ find_subgraph(g,rin_129,"rin_129")
 # le programme mettra plusieurs dizaines de minutes à s'éxécuter. 
 # Il faudra alors privilégier l'analyse fichier par fichier comme ci-dessus.
 
-"""for csvFile in allCsvFiles:
+cpt_23 = 0
+cpt_129 = 0
+
+for csvFile in allCsvFiles:
     draw_graph_from_csv(csvFile)
-    find_subgraph(g,rin_23,"rin_23")
-    find_subgraph(g,rin_129,"rin_129") """
+    cpt_23 = cpt_23 + find_subgraph(g,rin_23,"rin_23")
+    cpt_129 = cpt_129 + find_subgraph(g,rin_129,"rin_129")
+
+print("Nombre d'occurences de RIN 23 :" + str(cpt_23))
+print("Nombre d'occurences de RIN 129 :" + str(cpt_129))
