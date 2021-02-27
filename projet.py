@@ -10,7 +10,6 @@ import glob, os
 import igraph as ig
 import math
 
-
 # récupération de la liste de tous les fichiers à étudier
 
 os.chdir("data")
@@ -29,16 +28,16 @@ def color_edge(node, index):
     cases = {
         "cWW": "blue",
         
-        "tWW" : "red",
+        "tWW": "red",
         
-        "cWH" : "orange",
-        "cHW" : "orange",
+        "cWH": "orange",
+        "cHW": "orange",
         
         "tWH": "yellow",
         "tHW": "yellow",
 
-        "cWS" : "brown",
-        "cSW" : "brown",
+        "cWS": "brown",
+        "cSW": "brown",
 
         "tWS": "magenta",
         "tSW": "magenta",
@@ -50,10 +49,10 @@ def color_edge(node, index):
         "cHS": "pink",
         "cSH": "pink",
         
-        "tHS" : "green",
-        "tSH" : "green",
+        "tHS": "green",
+        "tSH": "green",
 
-        "cSS" : "maroon",
+        "cSS": "maroon",
         
         "tSS": "gray",
     }
@@ -71,13 +70,19 @@ def draw_graph_from_csv(file):
     
     global filename
     filename = file
-    df = pandas.read_csv("data/" + filename)[['old_nt_resnum','paired','pair_type_LW']]
+    df = pandas.read_csv("data/" + filename)[['index_chain','paired','pair_type_LW']]
     
-    # print("\nDataset du fichier " + file + "\n\n" + df.to_string() + "\n\n")      # affichage dans la console du fichier sous forme de dataset
+    
+    
+    print("\nDataset du fichier " + file + "\n\n" + df.to_string() + "\n\n")      # affichage dans la console du fichier sous forme de dataset
     
     global g                    # déclaration d'une variable g globale
     g = ig.Graph()              # initialisation du graphe
     
+    if (df['index_chain'][0] != 1):         # index_chain pas au bon format (nucléotide numéroté de 1 à N)
+        print ("\nLe fichier " + file + " n'est pas au bon format ! \n\n")
+        return 
+        
     for node in df.iterrows():
         g.add_vertices(1)       # ajout des noeuds (1 nucléotide = 1 noeud)
         
@@ -87,9 +92,8 @@ def draw_graph_from_csv(file):
             
     for i in range(len(g.vs)):
         
-        currentNode = df['old_nt_resnum'][i]      # noeud parcouru actuellement
+        currentNode = df['index_chain'][i]      # noeud parcouru actuellement
         pairedNode = str(df['paired'][i])       # liste des nucléotides possédant une interaction avec le noeud actuel
-        
         
         # liaisons phosphodiester entre les nucléotides
         
@@ -101,33 +105,32 @@ def draw_graph_from_csv(file):
         if pairedNode.find(",") != -1:                       # la liste "paired" contient plus d'un élément
             arrayPairedNodes = pairedNode.split(',')         # on récupère chacun des nucléotides de la liste
             for node in arrayPairedNodes:
-                if (int(node) in df['old_nt_resnum'].tolist()):         # le nucléotide apparié existe bien dans la chaîne
-                    if not g.are_connected(int(node)-1,currentNode-1):  # si l'arête n'existe pas déjà dans l'autre sens, alors on la crée
-                        g.add_edges([(currentNode-1,int(node)-1)])      # ajout dans le graphe de la liason canonique
-                        res_edge = g.es.find(_source=currentNode-1, _target=int(node)-1)
-                        res_edge["color"] = color_edge(df['pair_type_LW'][i], arrayPairedNodes.index(node))  
-                        
-                        
+                if (int(node) in df['index_chain'].tolist()):         # le nucléotide apparié existe bien dans la chaîne
+                     if not g.are_connected(int(node)-1,currentNode-1):  # si l'arête n'existe pas déjà dans l'autre sens, alors on la crée
+                         g.add_edges([(currentNode-1,int(node)-1)])      # ajout dans le graphe de la liason canonique
+                         res_edge = g.es.find(_source=currentNode-1, _target=int(node)-1)
+                         res_edge["color"] = color_edge(df['pair_type_LW'][i], arrayPairedNodes.index(node))  
+
+
         else:
             pairedNode = pandas.to_numeric(df['paired'][i])  # cast d'un string en int, afin de vérifier si le nucléotide n'est pas apparié (NaN)
-            if not math.isnan(pairedNode) and int(pairedNode) in df['old_nt_resnum'].tolist():
+            if not math.isnan(pairedNode) and int(pairedNode) in df['index_chain'].tolist():
                 if not g.are_connected(int(pairedNode)-1,currentNode-1):
-                    g.add_edges([(currentNode-1,int(pairedNode)-1)])
-                    res_edge = g.es.find(_source=currentNode-1, _target=int(pairedNode)-1)
-                    res_edge["color"] = color_edge(df['pair_type_LW'][i],-1)              
-
+                     g.add_edges([(currentNode-1,int(pairedNode)-1)])
+                     res_edge = g.es.find(_source=currentNode-1, _target=int(pairedNode)-1)
+                     res_edge["color"] = color_edge(df['pair_type_LW'][i],-1)              
 
     visual_style = {}
     visual_style["edge_width"] = 3
     g.vs["color"] = "white"
     
-    # draw_g = ig.plot(g, **visual_style) # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
+    draw_g = ig.plot(g, **visual_style) # affichage du graphe, sous forme de fichier .png dans une fenêtre externe
     
     # si l'affichage n'a pas fonctionné (booléen is_dirty == True), alors on appelle la méthode show()
     # Ce cas de figure peut apparaitre si le code source est éxécuté via un IDE
     
-    # if (str(draw_g._is_dirty) == "True"):   
-    #      draw_g.show()
+    if (str(draw_g._is_dirty) == "True"):   
+          draw_g.show()
     
  
     
@@ -153,13 +156,16 @@ def find_subgraph(graph, motif, motif_name):
     subgraph_list = g.get_subisomorphisms_vf2(motif,edge_compat_fn=compare_edges)
     
     if len(subgraph_list) >= 1:
+        
         results = [tuple(x) for x in set(map(frozenset, subgraph_list))]
         print ("Le motif " + motif_name + " est présent " + str(len(results)) + " fois dans la chaîne d'ARN " + filename + "\n")
+        
         for result in sorted(results):
             print (result)
         print ("\n\n")
+        
         return len(results)
-
+    
     else:
         print ("Le motif " + motif_name + " est absent de la chaîne d'ARN " + filename + "\n\n")
         return 0
@@ -218,35 +224,16 @@ def transorm_RIN_to_graph():
     res_edge["label"] = "tSS"
     res_edge["color"] = "gray"
     
-    # draw_rin_23 = ig.plot(rin_23)    # affichage du RIN 23
-    # draw_rin_129 = ig.plot(rin_129)  # affichage du RIN 129
+    draw_rin_23 = ig.plot(rin_23)    # affichage du RIN 23
+    draw_rin_129 = ig.plot(rin_129)  # affichage du RIN 129
     
-    # if (str(draw_rin_23._is_dirty) == "True"):   
-    #      draw_rin_23.show()
+    if (str(draw_rin_23._is_dirty) == "True"):   
+          draw_rin_23.show()
     
-    # if (str(draw_rin_129._is_dirty) == "True"):   
-    #     draw_rin_129.show()
+    if (str(draw_rin_129._is_dirty) == "True"):   
+          draw_rin_129.show()
 
 transorm_RIN_to_graph()
 draw_graph_from_csv("1mms_1_C")    # test de la fonction principale sur le fichier nommé "1mms_1_C"
 find_subgraph(g,rin_23,"rin_23")
 find_subgraph(g,rin_129,"rin_129")    
-
-
-# Si vous souhaitez parcourir tous les fichiers pour rechercher un motif, il suffit de décommenter
-# le code ci-dessous. Mais attention, il faudra absolument mettre en commentaire les divers affichages dans 
-# draw_graph_from_csv (plot de la chaine d'ARN + affichage du .csv dans la console), au risque de faire planter 
-# le programme. Il est déconseillé d'exécuter le programme ci-dessous si votre machine n'est pas très puissante,
-# le programme mettra plusieurs dizaines de minutes à s'éxécuter. 
-# Il faudra alors privilégier l'analyse fichier par fichier comme ci-dessus.
-
-cpt_23 = 0
-cpt_129 = 0
-
-for csvFile in allCsvFiles:
-    draw_graph_from_csv(csvFile)
-    cpt_23 = cpt_23 + find_subgraph(g,rin_23,"rin_23")
-    cpt_129 = cpt_129 + find_subgraph(g,rin_129,"rin_129")
-
-print("Nombre d'occurences de RIN 23 :" + str(cpt_23))
-print("Nombre d'occurences de RIN 129 :" + str(cpt_129))
