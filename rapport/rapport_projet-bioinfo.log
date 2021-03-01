@@ -1,53 +1,53 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.2.12)  24 FEB 2021 22:02
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.1)  1 MAR 2021 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **rapport_projet-bioinfo.tex
 (./rapport_projet-bioinfo.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-06>
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2021-02-18>
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count173
-\c@section=\count174
-\c@subsection=\count175
-\c@subsubsection=\count176
-\c@paragraph=\count177
-\c@subparagraph=\count178
-\c@figure=\count179
-\c@table=\count180
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2021/01/26 3.53 The Babel package
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/02/22 3.54 The Babel package
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2021/01/26 3.53 Babel common definitions
-\babel@savecnt=\count181
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/02/22 3.54 Babel common definitions
+\babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language13
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/babel/xebabel.def
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/babel/xebabel.def
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.de
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.de
 f))
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count182
+\bbl@dirlevel=\count184
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/babel-french/fren
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/babel-french/fren
 ch.ldf
 Language: french 2020/10/10 v3.5l French support from the babel system
 Package babel Info: \l@acadian = using hyphenrules for french
 (babel)             (\language9) on input line 91.
 Package babel Info: \l@canadien = using hyphenrules for french
 (babel)             (\language9) on input line 92.
-\FB@nonchar=\count183
+\FB@nonchar=\count185
 Package french.ldf Info: No need for active punctuation characters
 (french.ldf)             with this version of XeTeX!
 (french.ldf)             reported on input line 332.
@@ -57,14 +57,14 @@ Package french.ldf Info: No need for active punctuation characters
 \FB@guilo=\XeTeXcharclass4
 \FB@guilf=\XeTeXcharclass5
 \FB@guilnul=\XeTeXcharclass6
-\FBguill@level=\count184
+\FBguill@level=\count186
 \FBold@everypar=\toks15
 \FB@Mht=\dimen140
-\mc@charclass=\count185
-\mc@charfam=\count186
-\mc@charslot=\count187
-\std@mcc=\count188
-\dec@mcc=\count189
+\mc@charclass=\count187
+\mc@charfam=\count188
+\mc@charslot=\count189
+\std@mcc=\count190
+\dec@mcc=\count191
 \listindentFB=\dimen141
 \descindentFB=\dimen142
 \labelindentFB=\dimen143
@@ -73,12 +73,12 @@ Package french.ldf Info: No need for active punctuation characters
 \parindentFFN=\dimen146
 \FBfnindent=\dimen147
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/carlisle/scalefnt.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/carlisle/scalefnt.s
 ty)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) (c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+) (c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
@@ -86,44 +86,44 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/listings/listings.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/listings/listings.s
 ty
-\lst@mode=\count190
+\lst@mode=\count192
 \lst@gtempboxa=\box47
 \lst@token=\toks19
-\lst@length=\count191
+\lst@length=\count193
 \lst@currlwidth=\dimen148
-\lst@column=\count192
-\lst@pos=\count193
+\lst@column=\count194
+\lst@pos=\count195
 \lst@lostspace=\dimen149
 \lst@width=\dimen150
-\lst@newlines=\count194
-\lst@lineno=\count195
+\lst@newlines=\count196
+\lst@lineno=\count197
 \lst@maxwidth=\dimen151
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.st
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.st
 y
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count196
-\lst@skipnumbers=\count197
+\c@lstnumber=\count198
+\lst@skipnumbers=\count199
 \lst@framebox=\box48
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/listings/listings.c
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/listings/listings.c
 fg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.
 cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 225.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.
 def
 File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
 )
@@ -135,57 +135,84 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/caption/subcaption.
+sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/caption/caption3.st
+y
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen152
+\captionmargin@=\dimen153
+\captionwidth=\dimen154
+\caption@tempdima=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count266
+\c@continuedfloat=\count267
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count268
+\c@subtable=\count269
 ) (./en-tete_Latex.tex
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
 For additional information on amsmath, use the `?' option.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
-\ex@=\dimen152
+\ex@=\dimen159
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen153
-) (c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.st
+\pmbraise@=\dimen160
+) (c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.st
 y
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count198
+\inf@bad=\count270
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count199
-\leftroot@=\count266
+\uproot@=\count271
+\leftroot@=\count272
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count267
-\DOTSCASE@=\count268
+\classnum@=\count273
+\DOTSCASE@=\count274
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box49
 \strutbox@=\box50
-\big@size=\dimen154
+\big@size=\dimen161
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count269
-\c@MaxMatrixCols=\count270
+\macc@depth=\count275
+\c@MaxMatrixCols=\count276
 \dotsspace@=\muskip16
-\c@parentequation=\count271
-\dspbrk@lvl=\count272
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
 \tag@help=\toks21
-\row@=\count273
-\column@=\count274
-\maxfields@=\count275
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
 \andhelp@=\toks22
-\eqnshift@=\dimen155
-\alignsep@=\dimen156
-\tagshift@=\dimen157
-\tagwidth@=\dimen158
-\totwidth@=\dimen159
-\lineht@=\dimen160
+\eqnshift@=\dimen162
+\alignsep@=\dimen163
+\tagshift@=\dimen164
+\tagwidth@=\dimen165
+\totwidth@=\dimen166
+\lineht@=\dimen167
 \@envbody=\toks23
 \multlinegap=\skip50
 \multlinetaggap=\skip51
@@ -193,7 +220,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.s
 ty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
@@ -202,11 +229,11 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.st
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.st
 y
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks25
 \thm@bodyfont=\toks26
@@ -218,57 +245,57 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip54
 \dth@everypar=\toks30
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/stmaryrd/stmaryrd.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/stmaryrd/stmaryrd.s
 ty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/newtx/newtxmath.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2020/12/20 v1.640
 
 `newtxmath' v1.640, 2020/12/20 Math macros based originally on txfonts (msharpe
-) (c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+) (c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.s
 ty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count276
+\etb@tempcnta=\count282
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.st
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.st
 y
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.t
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.t
 ex
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.
 tex
 \XKV@toks=\toks31
 \XKV@tempa@toks=\toks32
 )
-\XKV@depth=\count277
+\XKV@depth=\count283
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/oberdiek/centernot.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/oberdiek/centernot.
 sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count278
+\tx@cntz=\count284
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/kastrup/binhex.te
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/kastrup/binhex.te
 x)
-\tx@Isdigit=\count279
-\tx@IsAlNum=\count280
+\tx@Isdigit=\count285
+\tx@IsAlNum=\count286
 \tx@tA=\toks33
 \tx@tB=\toks34
 \tx@su=\read3
@@ -371,87 +398,84 @@ LaTeX Info: Redefining \not on input line 2929.
 LaTeX Info: Redefining \textsquare on input line 2959.
 LaTeX Info: Redefining \openbox on input line 2961.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/fira/FiraSans.sty
-
-LaTeX Warning: You have requested package `firasans',
-               but the package provides `FiraSans'.
-
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/fira/FiraSans.sty
 Package: FiraSans 2019/10/10 (Bob Tennent and autoinst) Style file for Fira San
 s fonts.
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.s
 ty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/x
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/x
 parse.sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-06 L3 programming layer (loader) 
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend
 -xetex.def
-File: l3backend-xetex.def 2021-02-06 L3 backend support: XeTeX
+File: l3backend-xetex.def 2021-02-18 L3 backend support: XeTeX
  (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count281
-\l__color_backend_stack_int=\count282
-\g__color_backend_stack_int=\count283
-\g__graphics_track_int=\count284
+\c__kernel_sys_dvipdfmx_version_int=\count287
+\l__color_backend_stack_int=\count288
+\g__color_backend_stack_int=\count289
+\g__graphics_track_int=\count290
 \l__pdf_internal_box=\box51
-\g__pdf_backend_object_int=\count285
-\g__pdf_backend_annotation_int=\count286
-\g__pdf_backend_link_int=\count287
+\g__pdf_backend_object_int=\count291
+\g__pdf_backend_annotation_int=\count292
+\g__pdf_backend_link_int=\count293
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/x
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/x
 parse-2020-10-01.sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/x
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/x
 parse-generic.tex)))
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-x
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-x
 etex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count288
-\l__fontspec_language_int=\count289
-\l__fontspec_strnum_int=\count290
-\l__fontspec_tmp_int=\count291
-\l__fontspec_tmpa_int=\count292
-\l__fontspec_tmpb_int=\count293
-\l__fontspec_tmpc_int=\count294
-\l__fontspec_em_int=\count295
-\l__fontspec_emdef_int=\count296
-\l__fontspec_strong_int=\count297
-\l__fontspec_strongdef_int=\count298
-\l__fontspec_tmpa_dim=\dimen161
-\l__fontspec_tmpb_dim=\dimen162
-\l__fontspec_tmpc_dim=\dimen163
+\l__fontspec_script_int=\count294
+\l__fontspec_language_int=\count295
+\l__fontspec_strnum_int=\count296
+\l__fontspec_tmp_int=\count297
+\l__fontspec_tmpa_int=\count298
+\l__fontspec_tmpb_int=\count299
+\l__fontspec_tmpc_int=\count300
+\l__fontspec_em_int=\count301
+\l__fontspec_emdef_int=\count302
+\l__fontspec_strong_int=\count303
+\l__fontspec_strongdef_int=\count304
+\l__fontspec_tmpa_dim=\dimen168
+\l__fontspec_tmpb_dim=\dimen169
+\l__fontspec_tmpc_dim=\dimen170
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.c
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.c
 fg)))
 Requested font "[FiraSans-Regular.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Regular.otf
 Requested font "[FiraSans-Regular.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Regular.otf
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;" at 10.950
 03pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Regular.otf
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;" at 10.95003p
 t
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Bold.otf
 Requested font "[FiraSans-Italic.otf]/OT:script=latn;language=dflt;" at 10.9500
 3pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Italic.otf
 Requested font "[FiraSans-BoldItalic.otf]/OT:script=latn;language=dflt;" at 10.
 95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-BoldItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(0)' created for font 'FiraSans'
@@ -595,18 +619,18 @@ ge=dflt;+tnum;+onum;mapping=tex-text;"
 ge=dflt;+tnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-Thin.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Thin.otf
 Requested font "[FiraSans-Thin.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Thin.otf
 Requested font "[FiraSans-Thin.otf]/OT:script=latn;language=dflt;" at 10.95003p
 t
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Thin.otf
 Requested font "[FiraSans-ThinItalic.otf]/OT:script=latn;language=dflt;" at 10.
 95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ThinItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(4)' created for font 'FiraSans'
@@ -644,18 +668,18 @@ ge=dflt;+pnum;+onum;mapping=tex-text;"
 ge=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-Light.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Light.otf
 Requested font "[FiraSans-Light.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Light.otf
 Requested font "[FiraSans-Light.otf]/OT:script=latn;language=dflt;" at 10.95003
 pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Light.otf
 Requested font "[FiraSans-LightItalic.otf]/OT:script=latn;language=dflt;" at 10
 .95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-LightItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(5)' created for font 'FiraSans'
@@ -693,18 +717,18 @@ ge=dflt;+pnum;+onum;mapping=tex-text;"
 ge=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-ExtraLight.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ExtraLight.otf
 Requested font "[FiraSans-ExtraLight.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ExtraLight.otf
 Requested font "[FiraSans-ExtraLight.otf]/OT:script=latn;language=dflt;" at 10.
 95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ExtraLight.otf
 Requested font "[FiraSans-ExtraLightItalic.otf]/OT:script=latn;language=dflt;" 
 at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ExtraLightItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(6)' created for font 'FiraSans'
@@ -742,18 +766,18 @@ ge=dflt;+pnum;+onum;mapping=tex-text;"
 ge=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-UltraLight.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-UltraLight.otf
 Requested font "[FiraSans-UltraLight.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-UltraLight.otf
 Requested font "[FiraSans-UltraLight.otf]/OT:script=latn;language=dflt;" at 10.
 95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-UltraLight.otf
 Requested font "[FiraSans-UltraLightItalic.otf]/OT:script=latn;language=dflt;" 
 at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-UltraLightItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(7)' created for font 'FiraSans'
@@ -791,18 +815,18 @@ ge=dflt;+pnum;+onum;mapping=tex-text;"
 ge=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-Medium.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Medium.otf
 Requested font "[FiraSans-Medium.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Medium.otf
 Requested font "[FiraSans-Medium.otf]/OT:script=latn;language=dflt;" at 10.9500
 3pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Medium.otf
 Requested font "[FiraSans-MediumItalic.otf]/OT:script=latn;language=dflt;" at 1
 0.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-MediumItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(8)' created for font 'FiraSans'
@@ -840,18 +864,18 @@ ge=dflt;+pnum;+onum;mapping=tex-text;"
 ge=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-Book.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Book.otf
 Requested font "[FiraSans-Book.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Book.otf
 Requested font "[FiraSans-Book.otf]/OT:script=latn;language=dflt;" at 10.95003p
 t
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Book.otf
 Requested font "[FiraSans-BookItalic.otf]/OT:script=latn;language=dflt;" at 10.
 95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-BookItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(9)' created for font 'FiraSans'
@@ -889,18 +913,18 @@ ge=dflt;+pnum;+onum;mapping=tex-text;"
 ge=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-SemiBold.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-SemiBold.otf
 Requested font "[FiraSans-SemiBold.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-SemiBold.otf
 Requested font "[FiraSans-SemiBold.otf]/OT:script=latn;language=dflt;" at 10.95
 003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-SemiBold.otf
 Requested font "[FiraSans-SemiBoldItalic.otf]/OT:script=latn;language=dflt;" at
  10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-SemiBoldItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(10)' created for font 'FiraSans'
@@ -925,18 +949,18 @@ nguage=dflt;+pnum;+onum;mapping=tex-text;"
 nguage=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-ExtraBold.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ExtraBold.otf
 Requested font "[FiraSans-ExtraBold.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ExtraBold.otf
 Requested font "[FiraSans-ExtraBold.otf]/OT:script=latn;language=dflt;" at 10.9
 5003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ExtraBold.otf
 Requested font "[FiraSans-ExtraBoldItalic.otf]/OT:script=latn;language=dflt;" a
 t 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-ExtraBoldItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(11)' created for font 'FiraSans'
@@ -961,18 +985,18 @@ anguage=dflt;+pnum;+onum;mapping=tex-text;"
 anguage=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 Requested font "[FiraSans-Heavy.otf]/OT" at 10.94997pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Heavy.otf
 Requested font "[FiraSans-Heavy.otf]/OT" at 10.95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Heavy.otf
 Requested font "[FiraSans-Heavy.otf]/OT:script=latn;language=dflt;" at 10.95003
 pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Heavy.otf
 Requested font "[FiraSans-HeavyItalic.otf]/OT:script=latn;language=dflt;" at 10
 .95003pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-HeavyItalic.otf
 
 Package fontspec Info: Font family 'FiraSans(12)' created for font 'FiraSans'
@@ -997,25 +1021,25 @@ age=dflt;+pnum;+onum;mapping=tex-text;"
 age=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count299
+\c@tracingmulticols=\count305
 \mult@box=\box52
-\multicol@leftmargin=\dimen164
-\c@unbalance=\count300
-\c@collectmore=\count301
-\doublecol@number=\count302
-\multicoltolerance=\count303
-\multicolpretolerance=\count304
-\full@width=\dimen165
-\page@free=\dimen166
-\premulticols=\dimen167
-\postmulticols=\dimen168
+\multicol@leftmargin=\dimen171
+\c@unbalance=\count306
+\c@collectmore=\count307
+\doublecol@number=\count308
+\multicoltolerance=\count309
+\multicolpretolerance=\count310
+\full@width=\dimen172
+\page@free=\dimen173
+\premulticols=\dimen174
+\postmulticols=\dimen175
 \multicolsep=\skip55
 \multicolbaselineskip=\skip56
 \partial@page=\box53
 \last@line=\box54
-\maxbalancingoverflow=\dimen169
+\maxbalancingoverflow=\dimen176
 \mult@rightbox=\box55
 \mult@grightbox=\box56
 \mult@gfirstbox=\box57
@@ -1057,30 +1081,30 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box93
 \@tempa=\box94
 \@tempa=\box95
-\c@minrows=\count305
-\c@columnbadness=\count306
-\c@finalcolumnbadness=\count307
-\last@try=\dimen170
-\multicolovershoot=\dimen171
-\multicolundershoot=\dimen172
+\c@minrows=\count311
+\c@columnbadness=\count312
+\c@finalcolumnbadness=\count313
+\last@try=\dimen177
+\multicolovershoot=\dimen178
+\multicolundershoot=\dimen179
 \mult@nat@firstbox=\box96
 \colbreak@box=\box97
-\mc@col@check@num=\count308
+\mc@col@check@num=\count314
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.s
 ty
 Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.s
 ty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftex
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftex
 cmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/infwarerr/infware
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/infwarerr/infware
 rr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
@@ -1088,55 +1112,55 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetke
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetke
 ys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvde
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvde
 finekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfesca
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfesca
 pe.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxm
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxm
 acro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions
 .sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen173
-\Hy@linkcounter=\count309
-\Hy@pagecounter=\count310
+\@linkdim=\dimen180
+\Hy@linkcounter=\count315
+\Hy@pagecounter=\count316
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref-l
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref-l
 angpatches.def
 File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
 nguages
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.s
 ty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds
 .sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count311
+\Hy@SavedSpaceFactor=\count317
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4192.
@@ -1146,28 +1170,28 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count312
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\c@Hy@tempcnt=\count318
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen174
+\XeTeXLinkMargin=\dimen181
 Requested font "pzdr" at 0.00002pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/p
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/p
 zdr.tfm
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigint
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigint
 calc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count313
-\Field@Width=\dimen175
-\Fld@charsize=\dimen176
+\Fld@menulength=\count319
+\Field@Width=\dimen182
+\Fld@charsize=\dimen183
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -1178,43 +1202,43 @@ Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.s
 ty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count314
-\c@Item=\count315
-\c@Hfootnote=\count316
+\Hy@abspage=\count320
+\c@Item=\count321
+\c@Hfootnote=\count322
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2021-02-10 v7.00j Hyperref driver for XeTeX
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/stringenc/stringe
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/stringenc/stringe
 nc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box98
-\c@Hy@AnnotLevel=\count317
-\HyField@AnnotCount=\count318
-\Fld@listcount=\count319
-\c@bookmark@seq@number=\count320
+\c@Hy@AnnotLevel=\count323
+\HyField@AnnotCount=\count324
+\Fld@listcount=\count325
+\c@bookmark@seq@number=\count326
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/reru
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/reru
 nfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.
 sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/uniquecounter/uni
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/uniquecounter/uni
 quecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -1223,7 +1247,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip57
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.s
 ty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
@@ -1237,430 +1261,430 @@ rs
 \f@nch@O@olf=\skip65
 \f@nch@O@orf=\skip66
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/tools/array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen177
+\col@sep=\dimen184
 \ar@mcellbox=\box99
-\extrarowheight=\dimen178
+\extrarowheight=\dimen185
 \NC@list=\toks36
 \extratabsurround=\skip67
 \backup@length=\skip68
 \ar@cellbox=\box100
 )
-\TX@col@width=\dimen179
-\TX@old@table=\dimen180
-\TX@old@col=\dimen181
-\TX@target=\dimen182
-\TX@delta=\dimen183
-\TX@cols=\count321
+\TX@col@width=\dimen186
+\TX@old@table=\dimen187
+\TX@old@col=\dimen188
+\TX@target=\dimen189
+\TX@delta=\dimen190
+\TX@cols=\count327
 \TX@ftn=\toks37
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.s
 ty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/graphics/graphics.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/graphics/graphics.s
 ty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphi
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphi
 cs.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 105.
 )
-\Gin@req@height=\dimen184
-\Gin@req@width=\dimen185
+\Gin@req@height=\dimen191
+\Gin@req@width=\dimen192
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.s
 ty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip69
-\enit@outerparindent=\dimen186
+\enit@outerparindent=\dimen193
 \enit@toks=\toks38
 \enit@inbox=\box101
-\enit@count@id=\count322
-\enitdp@description=\count323
+\enit@count@id=\count328
+\enitdp@description=\count329
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/geometry/geometry.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/geometry/geometry.s
 ty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count324
-\Gm@cntv=\count325
-\c@Gm@tempcnt=\count326
-\Gm@bindingoffset=\dimen187
-\Gm@wd@mp=\dimen188
-\Gm@odd@mp=\dimen189
-\Gm@even@mp=\dimen190
-\Gm@layoutwidth=\dimen191
-\Gm@layoutheight=\dimen192
-\Gm@layouthoffset=\dimen193
-\Gm@layoutvoffset=\dimen194
+\Gm@cnth=\count330
+\Gm@cntv=\count331
+\c@Gm@tempcnt=\count332
+\Gm@bindingoffset=\dimen194
+\Gm@wd@mp=\dimen195
+\Gm@odd@mp=\dimen196
+\Gm@even@mp=\dimen197
+\Gm@layoutwidth=\dimen198
+\Gm@layoutheight=\dimen199
+\Gm@layouthoffset=\dimen256
+\Gm@layoutvoffset=\dimen257
 \Gm@dimlist=\toks39
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/lastpage/lastpage.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/lastpage/lastpage.s
 ty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/bclogo/bclogo.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/bclogo/bclogo.sty
 Package: bclogo 2016/01/10 v3.1
 \bc@invboxh=\skip70
 \bc@invboxd=\skip71
 \bc@titleLength=\skip72
 \logowidth=\skip73
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/t
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/t
 ikz.sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.
 sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrc
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrc
 s.sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
 util-common.tex
 \pgfutil@everybye=\toks40
-\pgfutil@tempdima=\dimen195
-\pgfutil@tempdimb=\dimen196
+\pgfutil@tempdima=\dimen258
+\pgfutil@tempdimb=\dimen259
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
 util-common-lists.tex))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
 util-latex.def
 \pgfutil@abb=\box102
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
 rcs.code.tex
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.
 tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfc
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfc
 ore.sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgf
 sys.sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsys.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
 keys.code.tex
 \pgfkeys@pathtoks=\toks41
 \pgfkeys@temptoks=\toks42
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
 keysfiltered.code.tex
 \pgfkeys@tmptoks=\toks43
 ))
-\pgf@x=\dimen197
-\pgf@y=\dimen198
-\pgf@xa=\dimen199
-\pgf@ya=\dimen256
-\pgf@xb=\dimen257
-\pgf@yb=\dimen258
-\pgf@xc=\dimen259
-\pgf@yc=\dimen260
-\pgf@xd=\dimen261
-\pgf@yd=\dimen262
+\pgf@x=\dimen260
+\pgf@y=\dimen261
+\pgf@xa=\dimen262
+\pgf@ya=\dimen263
+\pgf@xb=\dimen264
+\pgf@yb=\dimen265
+\pgf@xc=\dimen266
+\pgf@yc=\dimen267
+\pgf@xd=\dimen268
+\pgf@yd=\dimen269
 \w@pgf@writea=\write3
 \r@pgf@reada=\read4
-\c@pgf@counta=\count327
-\c@pgf@countb=\count328
-\c@pgf@countc=\count329
-\c@pgf@countd=\count330
+\c@pgf@counta=\count333
+\c@pgf@countb=\count334
+\c@pgf@countc=\count335
+\c@pgf@countd=\count336
 \t@pgf@toka=\toks44
 \t@pgf@tokb=\toks45
 \t@pgf@tokc=\toks46
-\pgf@sys@id@count=\count331
+\pgf@sys@id@count=\count337
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
 gf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-xetex.def
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsys-xetex.def
 File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsys-dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )
-\pgfsys@objnum=\count332
+\pgfsys@objnum=\count338
 )))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count333
-\pgfsyssoftpath@bigbuffer@items=\count334
+\pgfsyssoftpath@smallbuffer@items=\count339
+\pgfsyssoftpath@bigbuffer@items=\count340
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/p
 gfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcore.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.
 code.tex
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathc
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathc
 alc.code.tex
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathu
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathu
 til.code.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathp
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathp
 arser.code.tex
-\pgfmath@dimen=\dimen263
-\pgfmath@count=\count335
+\pgfmath@dimen=\dimen270
+\pgfmath@count=\count341
 \pgfmath@box=\box103
 \pgfmath@toks=\toks47
 \pgfmath@stack@operand=\toks48
 \pgfmath@stack@operation=\toks49
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.code.tex
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.basic.code.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.trigonometric.code.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.random.code.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.comparison.code.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.base.code.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.round.code.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.misc.code.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 unctions.integerarithmetics.code.tex)))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathf
 loat.code.tex
-\c@pgfmathroundto@lastzeros=\count336
+\c@pgfmathroundto@lastzeros=\count342
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.c
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.c
 ode.tex)
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen264
-\pgf@picmaxx=\dimen265
-\pgf@picminy=\dimen266
-\pgf@picmaxy=\dimen267
-\pgf@pathminx=\dimen268
-\pgf@pathmaxx=\dimen269
-\pgf@pathminy=\dimen270
-\pgf@pathmaxy=\dimen271
-\pgf@xx=\dimen272
-\pgf@xy=\dimen273
-\pgf@yx=\dimen274
-\pgf@yy=\dimen275
-\pgf@zx=\dimen276
-\pgf@zy=\dimen277
+\pgf@picminx=\dimen271
+\pgf@picmaxx=\dimen272
+\pgf@picminy=\dimen273
+\pgf@picmaxy=\dimen274
+\pgf@pathminx=\dimen275
+\pgf@pathmaxx=\dimen276
+\pgf@pathminy=\dimen277
+\pgf@pathmaxy=\dimen278
+\pgf@xx=\dimen279
+\pgf@xy=\dimen280
+\pgf@yx=\dimen281
+\pgf@yy=\dimen282
+\pgf@zx=\dimen283
+\pgf@zy=\dimen284
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen278
-\pgf@path@lasty=\dimen279
+\pgf@path@lastx=\dimen285
+\pgf@path@lasty=\dimen286
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen280
-\pgf@shorten@start@additional=\dimen281
+\pgf@shorten@end@additional=\dimen287
+\pgf@shorten@start@additional=\dimen288
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box104
 \pgf@hbox=\box105
 \pgf@layerbox@main=\box106
-\pgf@picture@serial@count=\count337
+\pgf@picture@serial@count=\count343
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen282
+\pgflinewidth=\dimen289
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen283
-\pgf@pt@y=\dimen284
-\pgf@pt@temp=\dimen285
+\pgf@pt@x=\dimen290
+\pgf@pt@y=\dimen291
+\pgf@pt@temp=\dimen292
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorequick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen286
+\pgfarrowsep=\dimen293
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen287
-\pgf@sys@shading@range@num=\count338
-\pgf@shadingcount=\count339
+\pgf@max=\dimen294
+\pgf@sys@shading@range@num=\count344
+\pgf@shadingcount=\count345
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfexternal@startupbox=\box107
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pg
 fcorerdf.code.tex
 File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmo
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmo
 duleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfnodeparttextbox=\box108
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmo
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmo
 duleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/p
 gfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen288
-\pgf@nodesepend=\dimen289
+\pgf@nodesepstart=\dimen295
+\pgf@nodesepend=\dimen296
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/p
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/p
 gfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffo
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffo
 r.sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfke
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfke
 ys.sty
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
 keys.code.tex))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.st
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.st
 y
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.
 code.tex))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgf
 for.code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.
 code.tex)
-\pgffor@iter=\dimen290
-\pgffor@skip=\dimen291
+\pgffor@iter=\dimen297
+\pgffor@skip=\dimen298
 \pgffor@stack=\toks50
 \pgffor@toks=\toks51
 ))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
 /tikz/tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgf
 libraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count340
-\pgfplotmarksize=\dimen292
+\pgf@plot@mark@count=\count346
+\pgfplotmarksize=\dimen299
 )
-\tikz@lastx=\dimen293
-\tikz@lasty=\dimen294
-\tikz@lastxsaved=\dimen295
-\tikz@lastysaved=\dimen296
-\tikz@lastmovetox=\dimen297
-\tikz@lastmovetoy=\dimen298
-\tikzleveldistance=\dimen299
-\tikzsiblingdistance=\dimen300
+\tikz@lastx=\dimen300
+\tikz@lasty=\dimen301
+\tikz@lastxsaved=\dimen302
+\tikz@lastysaved=\dimen303
+\tikz@lastmovetox=\dimen304
+\tikz@lastmovetoy=\dimen305
+\tikzleveldistance=\dimen306
+\tikzsiblingdistance=\dimen307
 \tikz@figbox=\box109
 \tikz@figbox@bg=\box110
 \tikz@tempbox=\box111
 \tikz@tempbox@bg=\box112
-\tikztreelevel=\count341
-\tikznumberofchildren=\count342
-\tikznumberofcurrentchild=\count343
-\tikz@fig@count=\count344
+\tikztreelevel=\count347
+\tikznumberofchildren=\count348
+\tikznumberofcurrentchild=\count349
+\tikz@fig@count=\count350
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmo
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmo
 dulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count345
-\pgfmatrixcurrentcolumn=\count346
-\pgf@matrix@numberofcolumns=\count347
+\pgfmatrixcurrentrow=\count351
+\pgfmatrixcurrentcolumn=\count352
+\pgf@matrix@numberofcolumns=\count353
 )
-\tikz@expandcount=\count348
+\tikz@expandcount=\count354
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
 /tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/mdframed/mdframed.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/mdframed/mdframed.s
 ty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/zref/zref-abspage.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/zref/zref-abspage.s
 ty
 Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/zref/zref-base.sty
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/zref/zref-base.sty
 Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
 Package zref Info: New property list: main on input line 764.
 Package zref Info: New property: default on input line 765.
 Package zref Info: New property: page on input line 766.
 )
-\c@abspage=\count349
+\c@abspage=\count355
 Package zref Info: New property: abspage on input line 66.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/needspace/needspace
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/needspace/needspace
 .sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip74
-\c@mdf@globalstyle@cnt=\count350
+\c@mdf@globalstyle@cnt=\count356
 \mdf@skipabove@length=\skip75
 \mdf@skipbelow@length=\skip76
 \mdf@leftmargin@length=\skip77
@@ -1701,7 +1725,7 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 \mdf@subsubtitleinneraboveskip@length=\skip112
 \mdf@subsubtitleinnerbelowskip@length=\skip113
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/mdframed/md-frame-1
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/mdframed/md-frame-1
 .mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
@@ -1737,53 +1761,53 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip138
 \mdfsubtitleheight=\skip139
 \mdfsubsubtitleheight=\skip140
-\c@mdfcountframes=\count351
+\c@mdfcountframes=\count357
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count352
-\c@mdf@env@i=\count353
-\c@mdf@env@ii=\count354
-\c@mdf@zref@counter=\count355
+\mdf@envdepth=\count358
+\c@mdf@env@i=\count359
+\c@mdf@env@ii=\count360
+\c@mdf@zref@counter=\count361
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
 /tikz/libraries/tikzlibraryshadows.code.tex
 File: tikzlibraryshadows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
 /tikz/libraries/tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgf
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgf
 libraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
 /tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer
 /tikz/libraries/tikzlibrarydecorations.code.tex
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmo
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmo
 duledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen301
-\pgfdecoratedremainingdistance=\dimen302
-\pgfdecoratedinputsegmentcompleteddistance=\dimen303
-\pgfdecoratedinputsegmentremainingdistance=\dimen304
-\pgf@decorate@distancetomove=\dimen305
-\pgf@decorate@repeatstate=\count356
-\pgfdecorationsegmentamplitude=\dimen306
-\pgfdecorationsegmentlength=\dimen307
+\pgfdecoratedcompleteddistance=\dimen308
+\pgfdecoratedremainingdistance=\dimen309
+\pgfdecoratedinputsegmentcompleteddistance=\dimen310
+\pgfdecoratedinputsegmentremainingdistance=\dimen311
+\pgf@decorate@distancetomove=\dimen312
+\pgf@decorate@repeatstate=\count362
+\pgfdecorationsegmentamplitude=\dimen313
+\pgfdecorationsegmentlength=\dimen314
 )
 \tikz@lib@dec@box=\box118
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/pgf/libraries/dec
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/pgf/libraries/dec
 orations/pgflibrarydecorations.pathmorphing.code.tex))
 Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 201 replaced by U+FFFD.
-\c@bclogocompteur=\count357
+\c@bclogocompteur=\count363
 \bcval@epBarre=\skip141
 \bcval@framesep=\skip142
 \bcval@tailleOndu=\skip143
@@ -1800,97 +1824,100 @@ Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 454 replaced by U+FFFD.
 ))
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 18.
+(Font)              scaled to size 10.95pt on input line 20.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum
 ;mapping=tex-text;" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Regular.otf
 
 (./rapport_projet-bioinfo.aux)
 \openout1 = `rapport_projet-bioinfo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 18.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 20.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 18.
+ 20.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/newtx/omlntxmi.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-8.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+0.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 20.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-18.
+20.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/newtx/untxexa.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 20.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 18.
+ 20.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 20.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 18.
+e 20.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Info: Redefining \dots on input line 18.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \dots on input line 20.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 18.
+(french.ldf)             reported on input line 20.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 18.
-LaTeX Info: Redefining \up on input line 18.
-\c@lstlisting=\count358
-Package hyperref Info: Link coloring OFF on input line 18.
+(french.ldf)             reported on input line 20.
+LaTeX Info: Redefining \up on input line 20.
+\c@lstlisting=\count364
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 20.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.st
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.st
 y
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/refcount/refcount.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/refcount/refcount.s
 ty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/generic/gettitlestring/ge
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/generic/gettitlestring/ge
 ttitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count359
+\c@section@level=\count365
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
  (./rapport_projet-bioinfo.out) (./rapport_projet-bioinfo.out)
 \@outlinefile=\write4
 \openout4 = `rapport_projet-bioinfo.out'.
@@ -1932,187 +1959,178 @@ LaTeX Info: Redefining \nameref on input line 18.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 18.
+(lastpage)             ! on input line 20.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 19.
+(Font)              scaled to size 20.74pt on input line 21.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum
 ;mapping=tex-text;" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 20.
+(Font)              scaled to size 20.74pt on input line 23.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;ma
 pping=tex-text;" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Bold.otf
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-0.
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+3.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Requested font "rm-lmr17" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 17.tfm
 Requested font "rm-lmr17" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 17.tfm
 Requested font "rm-lmr12" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 12.tfm
 Requested font "ntxmi" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi.tfm
 Requested font "ntxmi" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi.tfm
 Requested font "ntxmi" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi.tfm
 Requested font "ntxsy" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy.tfm
 Requested font "ntxsy" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy.tfm
 Requested font "ntxsy" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy.tfm
 Requested font "ntxexx" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
 Requested font "ntxexx" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
 Requested font "ntxexx" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 Requested font "msam10" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam10.tfm
 Requested font "msam10" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam10.tfm
 Requested font "msam10" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam10.tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Requested font "msbm10" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm10.tfm
 Requested font "msbm10" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm10.tfm
 Requested font "msbm10" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm10.tfm
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-0.
+3.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 Requested font "stmary10" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
 stmary10.tfm
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <16.1> not available
-(Font)              size <17.28> substituted on input line 20.
+(Font)              size <17.28> substituted on input line 23.
 
 Requested font "stmary10" at 17.28pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
 stmary10.tfm
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <11.4> not available
-(Font)              size <10.95> substituted on input line 20.
+(Font)              size <10.95> substituted on input line 23.
 
 Requested font "stmary10" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
 stmary10.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-20.
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/newtx/untxmia.fd
+23.
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 Requested font "ntxmia" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 Requested font "ntxmia" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 Requested font "ntxmia" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-20.
+23.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/newtx/untxsym.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 Requested font "ntxsym" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 Requested font "ntxsym" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 Requested font "ntxsym" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-20.
+23.
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/newtx/untxsyc.fd
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 Requested font "ntxsyc" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxsyc" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxsyc" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxexa" at 20.74pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 Requested font "ntxexa" at 16.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 Requested font "ntxexa" at 11.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 23.
+(Font)              scaled to size 14.4pt on input line 24.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum
 ;mapping=tex-text;" at 14.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+/FiraSans-Regular.otf
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 9.3599pt on input line 25.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum
+;mapping=tex-text;" at 9.3599pt
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Regular.otf
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--30
-
- []
-
-
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.s
 ty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -2120,272 +2138,383 @@ LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 34.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;ma
 pping=tex-text;" at 14.4pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Bold.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 37.
 Requested font "[FiraSans-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onum;
 mapping=tex-text;" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Italic.otf
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
 Requested font "[lmmono10-regular]:" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/lm/l
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/lm/l
 mmono10-regular.otf
 Requested font "rm-lmr10" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 10.tfm
 Requested font "rm-lmr8" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 8.tfm
 Requested font "rm-lmr6" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 6.tfm
 Requested font "ntxmi" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi.tfm
 Requested font "ntxmi7" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi7.tfm
 Requested font "ntxmi5" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi5.tfm
 Requested font "ntxsy" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy.tfm
 Requested font "ntxsy7" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy7.tfm
 Requested font "ntxsy5" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy5.tfm
 Requested font "ntxexx" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
 Requested font "ntxexx" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
 Requested font "ntxexx" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
 Requested font "msam10" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam10.tfm
 Requested font "msam10" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam10.tfm
 Requested font "msam7" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam7.tfm
 Requested font "msbm10" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm10.tfm
 Requested font "msbm10" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm10.tfm
 Requested font "msbm7" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm7.tfm
 Requested font "stmary8" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
 stmary8.tfm
 Requested font "stmary6" at 6.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
 stmary6.tfm
 Requested font "ntxmia" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 Requested font "ntxmia" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 Requested font "ntxmia" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 Requested font "ntxsym" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 Requested font "ntxsym" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 Requested font "ntxsym" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 Requested font "ntxsyc" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxsyc" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxsyc" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxexa" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 Requested font "ntxexa" at 8.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 Requested font "ntxexa" at 6.1pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 Package hyperref Info: bookmark level for unknown bclogo defaults to 0 on input
- line 46.
+ line 47.
 File: bc-attention.mps Graphic file (type mps)
 <bc-attention.mps>
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 46.
+(Font)              scaled to size 12.0pt on input line 47.
 Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum
 ;mapping=tex-text;" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Regular.otf
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 46.
+(Font)              scaled to size 12.0pt on input line 47.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;ma
 pping=tex-text;" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Bold.otf
 Requested font "rm-lmr12" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 12.tfm
 Requested font "rm-lmr9" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 9.tfm
 Requested font "rm-lmr7" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr
 7.tfm
 Requested font "ntxmi" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi.tfm
 Requested font "ntxmi" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi.tfm
 Requested font "ntxmi7" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mi7.tfm
 Requested font "ntxsy" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy.tfm
 Requested font "ntxsy" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy.tfm
 Requested font "ntxsy7" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sy7.tfm
 Requested font "ntxexx" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
 Requested font "ntxexx" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
 Requested font "ntxexx" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exx.tfm
 Requested font "msam10" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam10.tfm
 Requested font "msam10" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam10.tfm
 Requested font "msam7" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msam7.tfm
 Requested font "msbm10" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm10.tfm
 Requested font "msbm10" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm10.tfm
 Requested font "msbm7" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/
 symbols/msbm7.tfm
 Requested font "stmary10" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
 stmary10.tfm
 Requested font "stmary9" at 9.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
 stmary9.tfm
 Requested font "stmary7" at 7.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/stmaryrd/
 stmary7.tfm
 Requested font "ntxmia" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 Requested font "ntxmia" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 Requested font "ntxmia" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 mia.tfm
 Requested font "ntxsym" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 Requested font "ntxsym" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 Requested font "ntxsym" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 sym.tfm
 Requested font "ntxsyc" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxsyc" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxsyc" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 syc.tfm
 Requested font "ntxexa" at 12.0pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 Requested font "ntxexa" at 8.8pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 Requested font "ntxexa" at 6.6pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntx
 exa.tfm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 46.
+(mdframed)              on input line 47.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 46.
+(Font)              scaled to size 10.95pt on input line 47.
 Requested font "[FiraSans-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;ma
 pping=tex-text;" at 10.95pt
- -> c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
 /FiraSans-Bold.otf
 
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.s
 ty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-(c:/Users/ludam/ProgPerso/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.s
+(c:/Users/ludam/progPerso/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.s
 ty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Overfull \hbox (24.16257pt too wide) in paragraph at lines 56--57
-[]\TU/FiraSans(0)/m/n/10.95 Télécharger la base de données RNANet à l’adresse s
-uivante : []$[][][][][] [] [] [] [][][][][][][] [] [][][][][] [] [][][][][][][]
-[][][] []
+Overfull \hbox (7.85167pt too wide) in paragraph at lines 56--57
+\TU/FiraSans(0)/m/n/10.95 depuis RNANet, à l’adresse suivante : []$[][][][][] [
+] [] [] [][][][][][][] [] [][][][][] [] [][][][][][][][][][] [] [][] [] [][][][
+][][][] [] [][][][][][]$[],
+ []
+
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 7.11742pt on input line 57.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum
+;mapping=tex-text;" at 7.11742pt
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+/FiraSans-Regular.otf
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
+
+ []
+
+File: rin23_2.png Graphic file (type bmp)
+<rin23_2.png>
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 81.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum
+;mapping=tex-text;" at 10.0pt
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+/FiraSans-Regular.otf
+File: rin129_2.png Graphic file (type bmp)
+<rin129_2.png>
+
+Overfull \hbox (1.93451pt too wide) in paragraph at lines 77--91
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Overfull \hbox (2.25684pt too wide) in paragraph at lines 97--99
+[]\TU/FiraSans(0)/m/n/10.95 On passe ensuite la fonction \TU/lmtt/m/n/10.95 com
+pare_edges \TU/FiraSans(0)/m/n/10.95 en argument à la fonction \TU/lmtt/m/n/10.
+95 get_isomorphisms_vf2\TU/FiraSans(0)/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+
+ []
+
+File: screenshot.png Graphic file (type bmp)
+<screenshot.png>
+
+Overfull \hbox (20.00888pt too wide) in paragraph at lines 107--108
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 108.
+Requested font "[FiraSans-Regular.otf]/OT:script=latn;language=dflt;+pnum;+onum
+;+smcp;mapping=tex-text;" at 10.95pt
+ -> c:/Users/ludam/progPerso/texlive/2020/texmf-dist/fonts/opentype/public/fira
+/FiraSans-Regular.otf
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
  []
 
 
 AED: lastpage setting LastPage
-[1
-
-] (./rapport_projet-bioinfo.aux)
+[4] (./rapport_projet-bioinfo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.18pt have occurred.
 
 Package rerunfilecheck Info: File `rapport_projet-bioinfo.out' has not changed.
 
-(rerunfilecheck)             Checksum: 6DEE984A2B2081E6E1EFF790E8C5B1A4;429.
+(rerunfilecheck)             Checksum: 010D398D1004D5533100120FA038784B;691.
  ) 
 Here is how much of TeX's memory you used:
- 30505 strings out of 479091
- 591756 string characters out of 5867861
- 1159526 words of memory out of 5000000
- 49481 multiletter control sequences out of 15000+600000
- 463705 words of font info for 180 fonts, out of 8000000 for 9000
+ 31765 strings out of 478812
+ 616432 string characters out of 5860008
+ 1184533 words of memory out of 5000000
+ 51001 multiletter control sequences out of 15000+600000
+ 463737 words of font info for 184 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 107i,11n,127p,573b,1451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 107i,12n,127p,860b,1449s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on rapport_projet-bioinfo.pdf (1 page).
+Output written on rapport_projet-bioinfo.pdf (4 pages).
