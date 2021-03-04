@@ -227,7 +227,7 @@ transorm_RIN_to_graph()
 # de motif rin_23 et rin_129 pour un fichier CSV donné. 
 
 # Le gain de performance en terme de temps d'exécution est assez énorme.
-# Par exemple, sur ma machine assez ancienne disposant de 4 coeurs, avec 8 threads par coeur,
+# Par exemple, sur une machine assez ancienne disposant de 4 coeurs, avec 2 threads par coeur,
 # le temps d'exécution multithreadé est de 20 minutes, contre plus d'1 heure et 20 minutes en monothread.
 # Sur une machine plus récente et plus puissante, le programme devrait probablement s'éxécuter plus rapidement.
 # Pour réussir à diminuer le temps d'éxécution, nous avons enlevé les affichages des graphes et les messages 
